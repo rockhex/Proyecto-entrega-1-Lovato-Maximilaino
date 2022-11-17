@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block Codigo2 %}
+    
+    <table>
+    {% for post in object_list %}
+
+        <ul>
+            <li>
+            
+                
+                    {{post}}
+
+                    <button>
+                        <a href="{% url 'Detail' post.id %}">Mostrar Post</a>
+                    </button>
+    </table>
+
+            </li>
+        </ul>
+
+    {% endfor %}
+
+{% endblock %}
