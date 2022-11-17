@@ -1,35 +1,48 @@
-# Proyecto-entrega-1-Lovato-Maximilaino
+## Proyecto creado por Luis Aragon y Maxii
+Proyecto-entrega-1-Lovato-Maximilaino
+Proyecto de desarollo de una pagina web por medio de Django con la utilizacion de plantillas en HTML
 
-Proyecto de desarollo de una pagina web por medio de Django con la utilizacion de plantillas en HTML 
+Pre-requisitos 📋 Tener instalado VScode o algun otro editor de codigo
 
-Pre-requisitos 📋
-Tener instalado VScode o algun otro editor de codigo
+Instalación 🔧 
+# Crear entorno virtual: #
+    - Una vez dentro de la carpeta Proyecto 1 , ingresar el comando python -m venv venv
+    - Crea carpeta (venv) con comando mkdir
+    - Activar el entorno virtual" nombre del entorno Virtual" Scripts/activate. 
+# instalar Django: #
+    - pip instal Django 
+    - Para verificar ingresa:
+        python import django
+        django.VERSION
+        (deberia salir la version de Django instalada)
 
-Instalación 🔧
--------------A) crear entorno virtual:
-1- uan vez dentro de la carpeta Proyecto 1 , ingresar el comando python -m venv venv
-2-  crea carpeta (venv) con comando mkdir
-3-activar el entorno virtual" nombre del entorno Virtual"/Scripts/activate.
-------------- B) instalar Django:
-1- pip instal Django
-2- estando en consola , ingresar python import django
--------------C) crear pyecto
-1-Django-admin startproject "nobmre del proyecto"
-Comenzando 🚀
-2-ir a la carpeta del proyecto
-3- en carpeta del proyecyo ingresar phyton manage.py migrate
-4- en carpeta del proyecyo ingresar phyton manage.py runserver
+# Ingresar al proyecto 🚀 #
 
-Con esto deberia de obtenrse ya un URL local obtenida por medio del entorno virtual creado en la carpeta principal
+    - Ir a la carpeta del proyecto
+    - Una vez dentro ingresar phyton manage.py migrate
+    - Luego ingresar phyton manage.py runserver
 
-Construido con 🛠️
-Menciona las herramientas que utilizaste para crear tu proyecto
+(Con esto deberia de obtenerse ya un URL local obtenida por medio del entorno virtual creado en la carpeta principal)
 
-pyhthon 
-Django-framework de desarrollo web
-HTML -Usado para generar plantillas
+# Una vez dentro #
 
-Autores ✒️
-Arago Luis - 
-Lovato Maximiliano-  
+Tiene varias opciones dentro de la web:
 
+- Puede hacer click sobre el boton superior de "Crear Posts" para crear algun post que desee
+
+- Puede hacer click sobre el boton superior derecho de "Mostrar Posts" para ingresar a todos los posts realizados
+
+- Puede hacer click sobre el boton de Lupa para buscar algun posteo realizado
+
+- A su vez puede tambien hacer click sobre el boton de "Buscar un post" en la parte del medio
+
+- Tambien puede hacer click sobre el boton de "Post Musicales" para ver los posts realizados.
+
+.
+Gracias
+.
+
+##Construido con Django##
+
+
+Autores ✒️ Arago Luis - Lovato Maximiliano-
